@@ -1,0 +1,101 @@
+body {
+  background-color: #99FF99;
+  margin: 0;
+}
+
+div {
+  height: 200px;
+  width: 200px;
+  font-family: sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+  line-height: 325px;
+  margin: 10px 5px;
+  float: left;
+  -webkit-text-stroke: 2px black;
+  text-indent: 150px;
+}
+
+.clear{
+			clear:both;
+		}
+
+#uno {
+  background-color: #110011;
+}
+
+#dos {
+  background-color: #220033;
+}
+
+#tres {
+  background-color: #330033;
+}
+
+#cuatro {
+  background-color: #440044;
+}
+
+#cinco {
+  background-color: #550055;
+}
+
+#seis {
+  background-color: #660066;
+}
+
+#siete {
+  background-color: #770077;
+}
+
+#ocho {
+  background-color: #880088;
+}
+
+#nueve {
+  background-color: #990099;
+}
+
+#diez {
+  background-color: #AA00AA;
+}
+#once {
+  background-color: #BB00BB;
+}
+
+#doce {
+  background-color: #CC00CC;
+}
+
+#trece {
+  background-color: #DD00DD;
+}
+
+#catorce {
+  background-color: #EE00EE;
+}
+
+#quince {
+  background-color: #FF00FF;
+}
+
+#dieciseis {
+  background-color: #FF00CC;
+}
+
+#diecisiete {
+  background-color: #FF33CC;
+}
+
+#dieciocho {
+  background-color: #FF66CC;
+}
+
+#diecinueve {
+  background-color: #FF99CC;
+}
+
+#veinte {
+  background-color: #FFCCCC;
+}
