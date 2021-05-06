@@ -1,0 +1,188 @@
+body{
+  background-color: #ccccff;
+  margin: 0;
+  overflow-y: hidden;
+  animation: cielo 5.5s 2s forwards;
+}
+@keyframes cielo{
+  50% {
+    background-color: #DFCF30; }
+  65% {
+    background-color: #DBAE29; }
+  85% {
+    background-color: #898328; }
+  100% {
+    background-color: #272E64; }
+}
+#fachada{
+  width: 200px;
+  height: 200px;
+  background-color: orange;
+  position: absolute;
+  left: 400px;
+  top: 300px;
+  border: solid 3px black;
+}
+#tejado{
+width: 250px;
+height: 70px;
+background-color: red;
+position: absolute;
+left: 375px;
+top:230px;
+border: solid 3px black;
+}
+#ventana1{
+  width: 50px;
+  height: 50px;
+  background-color: #E3EDF0;
+  position: absolute;
+  left: 425px;
+  top: 330px;
+  border: solid 3px black;
+}
+#ventana2{
+width: 50px;
+height: 50px;
+background-color: #E3EDF0;
+position: absolute;
+left: 515px;
+top: 330px;
+border: solid 3px black;
+}
+#puerta{
+width: 50px;
+height: 70px;
+background-color: brown;
+position: absolute;
+left: 470px;
+top: 430px;
+border: solid 3px black;
+}
+#chimenea{
+  width: 30px;
+  height: 60px;
+  position: absolute;
+  background-color: green;
+  left: 550px;
+  top: 170px;
+  border: solid 3px black;
+}
+@keyframes rotate {
+  0%{transform: rotate(0deg);}
+  100%{transform: rotate(360deg);}
+}
+#flor{
+  width: 50px;
+  height: 50px;
+  background-color: pink;
+  border-radius: 100% 0% 100% 0%;
+  margin-left: 800px;
+  position: relative;
+  bottom: -90px;
+  left: 250px;
+  animation:rotate 3s infinite linear;
+}
+#flor.before{
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  position: absolute;
+  top:90px;
+  left: 250px;
+  margin-left: 800px;
+}
+#flor2{
+  width: 50px;
+  height: 50px;
+  content: "";
+  transform: rotate(90deg);
+  background-color: purple;
+  border-radius: 100% 0% 100% 0%;
+  margin-left: 800px;
+  position: relative;
+  top:140px;
+  left: 253px;
+
+}
+#sol{
+  width: 200px;
+  height: 200px;
+  background-color: yellow;
+  position: absolute;
+  left: 1000px;
+  top: 50px;
+  border-radius: 100%;
+  box-shadow: 0px 0px 20px 5px #ff8c1a;
+  animation: sunset 15s forwards;
+}
+@keyframes sunset {
+  100%{
+    transform: translateY(750px);
+  }
+}
+#luna{
+  background-color: transparent;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  box-shadow: -20px 10px white;
+  position: absolute;
+  left: 90%;
+  top:5%;
+  opacity: 0;
+  animation: night 0.8s 7s forwards;
+}
+@keyframes night {
+  100%{
+    opacity: 1;
+  }
+}
+#base{
+  width: 5000px;
+  height: 500px;
+  background-color: #5A903A;
+  position: relative;
+  left: 0px;
+  bottom: -100px;
+}
+#montana{
+  border-radius: 34% 66% 0% 100% / 100% 43% 57% 0%;
+  width: 600px;
+  height: 300px;
+  background-color: #54432C;
+  position: relative;
+  left: 360px;
+  bottom:-200px;
+}
+
+#nube:after {
+	width: 100px; height: 100px;
+	top: -50px; left: 50px;
+	border-radius: 100px;
+}
+
+#nube:before {
+	width: 200px; height: 200px;
+	top: -90px; right: 50px;
+	border-radius: 200px;
+}
+#nube:after, #nube:before {
+	content: '';
+	position: absolute;
+	background: #FFF;
+	z-index: -1;
+}
+#nube{
+	width: 350px; height: 120px;
+	background: #BFF;
+	background: linear-gradient(top, #BFF 5%, #DFF 100%);
+	background: -webkit-linear-gradient(top, #FFF 1%, #BFF 100%);
+	background: -moz-linear-gradient(top, #BFF 5%, #DFF 100%);
+	background: -ms-linear-gradient(top, #BFF 5%, #DFF 100%);
+	background: -o-linear-gradient(top, #BFF 5%, #DFF 100%);
+	top: 50px; left: 50px;
+	border-radius: 100px;
+	position: absolute;
+	margin: 120px auto 20px;
+}
